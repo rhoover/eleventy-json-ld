@@ -65,7 +65,10 @@ So here you go, your shortcode being used:
 {% schemaDataShortCode meta %}
 ```
 
-### Gravy - Filter
+### Gravy
+
+### Date Filter
+
 A couple of bonus snippets to help you understand how powerful Eleventy's global data and computional magic are.
 
 Recall, I mentioned that using [eleventyComputed](https://www.11ty.dev/docs/data-computed/) is preferred for your frontmatter schema-data creation. This magic lets you use variables and functions in your front matter without resorting to custom frontmatter formats.
@@ -102,7 +105,10 @@ eleventyComputed:
 
 And presto! Prefectly formatted date strings in your structured JSON.
 
-### Gravy - Global Data 
+### Gravy
+
+### Global Data
+ 
 So, one last treat, how about a "last modified" date in your structured data? Which I'm taking the liberty of referencing as the last "build" date for that file.
 
 As you'll see in the code above, there's a built.js file in the src/_data directory. In this frontmatter, "built" is the name of the file, and "builtAt" is what said file exports.
