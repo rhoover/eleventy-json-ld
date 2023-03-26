@@ -1,6 +1,6 @@
 # Generate and print structured data in Eleventy without a plugin
 
-[Eleventy](https://www.11ty.dev/) workflow/technique to generate JSON-LD [structured data](https://schema.org/) all by yourself, without any plugins or third-paty libraries.
+[Eleventy](https://www.11ty.dev/) workflow/technique to generate JSON-LD [structured data](https://schema.org/) all by yourself, without any plugins or third-party libraries.
 
 - [Installation](#installation)
 - [Usage](#usage)
