@@ -1,0 +1,8 @@
+{% include 'components/head-element.njk' %}
+  <body>
+
+    <main class="{{ page.fileSlug or 'home' }}" >
+      {{ content | safe }}
+    </main>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+---
+  layout: layouts/base.njk
+  title: Structured Data Test - Home
+  eleventyComputed:
+    meta:
+      "@type": "Website"
+      "name": "VT CheeseMakers"
+      "description": "A Comprehensive Mobile Reference of Eleventy's Computing Powers"
+      "datePublished": "{{ page.date | dateFormat }}"
+      "dateModified": "{{ built.builtAt }}"
+      "publisher":
+        "@type": "Organization"
+        "name": "My Killer Agency"
+        "description": "Creating Custom Web Sites and Web Apps in Vermont"
+        "url": "https://mysite.com"
+---
+
+<section class="home-intro">
+  <h1>Structured Data Test</h1>
+  <p>There are few things more compelling than a pithy introduction. You'll have to look elsewhere I'm afraid.</p>
+</section>
