@@ -68,9 +68,10 @@ So here you go, your shortcode being used:
 
 ## Gravy
 
-### Date Filter
-
 A couple of bonus snippets to help you understand how powerful Eleventy's global data and computional magic are.
+
+
+### Date Filter
 
 Recall, I mentioned that using [eleventyComputed](https://www.11ty.dev/docs/data-computed/) is preferred for your frontmatter schema-data creation. This magic lets you use variables and functions in your front matter without resorting to custom frontmatter formats.
 
@@ -131,7 +132,7 @@ eleventyComputed:
 
 ## Validation
 
-You can validate the structured data using one of the following tools:
+You can test your structured data as valid JSON using one or all of the following tools:
 
 - [Google's Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/u/0/)
 - [JSON-LD Playground](https://json-ld.org/playground/)
