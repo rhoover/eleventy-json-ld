@@ -1,13 +1,17 @@
 {
-  "name": "eleventy-json-ld-test",
+  "name": "eleventy-json-ld",
   "version": "1.0.0",
   "description": "Super Simple JSON-LD Without A Plugin for Eleventy",
   "keywords": ["eleventy", "eleventy2", "json-ld", "ld+json", "schema", "rich results", "structured data" ],
   "main": ".eleventy.js",
-  "license": "MIT",
+  "license": "GNU GPL",
   "author": {
     "name": "Robin Hoover | MooseDog Studios",
     "url": "https://moosedog.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhoover/eleventy-json-ld"
   },
   "scripts": {
     "serve": "rm -rf dist && npx @11ty/eleventy --serve"
