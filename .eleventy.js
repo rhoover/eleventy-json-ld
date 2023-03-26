@@ -11,11 +11,12 @@ module.exports = (eleventyConfig) => {
     //format the final date-time to be printed on the page
     let pubDate = `${value.getMonth()+1}/${value.getDate()}/${value.getFullYear()} - ${twelveHourTime}`;
 
-    // send things off to be printed in your final HTML file
+    // send things off to be dealt with in your frontmatter thusly: "datePublished": "{{ page.date | dateFormat }}"
     return `${pubDate}`;
   });
 
-  // here is the heart of the matter, grab your custimized frontmatter as a function parameter
+  // here is the heart of the matter
+  // grab your custimized frontmatter as a function parameter
   // from the "meta" object you've created in your template(s)
   eleventyConfig.addNunjucksShortcode("schemaDataShortCode", function(meta) {
 

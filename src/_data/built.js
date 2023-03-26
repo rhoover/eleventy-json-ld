@@ -10,6 +10,6 @@ let pubDate = `${built.getMonth()+1}/${built.getDate()}/${built.getFullYear()} -
 
 module.exports = {
 
-  // send the above off to be printed in yojur final HTML file
+  // send the above off to be dealth with in your frontmatter thusly: "dateModified": "{{ built.builtAt }}"
   builtAt: pubDate
 };
