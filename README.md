@@ -1,4 +1,4 @@
-# Generate and print structured data in Eleventy without a plugin
+# Generate and Print Structured Data in Eleventy Without a Plugin
 
 [Eleventy](https://www.11ty.dev/) workflow/technique to generate JSON-LD [structured data](https://schema.org/) all by yourself, without any plugins or third-party libraries.
 
@@ -58,7 +58,7 @@ The next point of work is inside your .eleventy.js file. It's a grueling four(4)
   });
 ```
 
-The next point of work is inside your templates, specifically where to place the above shortcode. Typically, this is done in the ``` <head> ``` element, as you'll see in src/_includes/components/head-element.njk above, but the ``` <footer> ``` element is no less legitimate.
+The next point of work is inside your templates, specifically where to place the above shortcode. Typically, this is done in the ``` <head> ``` element, as you'll see in ```src/_includes/components/head-element.njk``` above, but the ``` <footer> ``` element is no less legitimate.
 
 So here you go, your shortcode being used:
 
@@ -89,7 +89,7 @@ eleventyConfig.addFilter("dateFormat", function(value) {
 });
 ```
 
-This will be used in your frontmatter thusly:
+This will be used in your frontmatter thusly, note the ```"datePublished": "{{ page.date | dateFormat }}"```:
 
 ```yaml
 eleventyComputed:
@@ -113,7 +113,7 @@ And presto! Prefectly formatted date strings in your structured JSON.
 
 So, one last treat, how about a "last modified" date in your structured data? Which I'm taking the liberty of referencing as the last "build" date for that file.
 
-As you'll see in the code above, there's a built.js file in the src/_data directory. In this frontmatter, "built" is the name of the file, and "builtAt" is what said file exports.
+As you'll see in the code above, there's a ```built.js``` file in the ```src/_data directory```. In this frontmatter, "built" is the name of the file, and "builtAt" is what said file exports.
 
 ```yaml
 eleventyComputed:
