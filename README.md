@@ -4,6 +4,7 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Gravy](#gravy)
 - [Validation](#validation)
 - [Thanks](#thanks-to)
 - [License](#license)
@@ -65,7 +66,7 @@ So here you go, your shortcode being used:
 {% schemaDataShortCode meta %}
 ```
 
-### Gravy
+## Gravy
 
 ### Date Filter
 
@@ -105,10 +106,10 @@ eleventyComputed:
 
 And presto! Prefectly formatted date strings in your structured JSON.
 
-### Gravy
+## Gravy
 
 ### Global Data
- 
+
 So, one last treat, how about a "last modified" date in your structured data? Which I'm taking the liberty of referencing as the last "build" date for that file.
 
 As you'll see in the code above, there's a built.js file in the src/_data directory. In this frontmatter, "built" is the name of the file, and "builtAt" is what said file exports.
