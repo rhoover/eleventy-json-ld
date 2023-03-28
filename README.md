@@ -6,7 +6,7 @@
 - [Usage](#usage)
 - [Gravy](#gravy)
 - [Validation](#validation)
-- [Thanks](#thanks-to)
+- [Thanks](#thanks)
 - [License](#license)
 
 
