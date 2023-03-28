@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhoover/eleventy-json-ld.git"
+    "url": "https://github.com/rhoover/eleventy-json-ld"
   },
   "scripts": {
     "serve": "rm -rf dist && npx @11ty/eleventy --serve"
