@@ -9,10 +9,6 @@
     "name": "Robin Hoover | MooseDog Studios",
     "url": "https://moosedog.io"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rhoover/eleventy-json-ld"
-  },
   "scripts": {
     "serve": "rm -rf dist && npx @11ty/eleventy --serve"
   },
